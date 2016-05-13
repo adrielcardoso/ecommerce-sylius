@@ -1,0 +1,46 @@
+{
+    "name": "sylius/taxonomy",
+    "type": "library",
+    "description": "Taxonomies - categorization of domain models in PHP projects.",
+    "keywords": ["taxonomy", "ecommerce", "categorization", "taxon", "classification"],
+    "homepage": "http://sylius.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name":     "Paweł Jędrzejewski",
+            "homepage": "http://pjedrzejewski.com"
+        },
+        {
+            "name":     "Sylius project",
+            "homepage": "http://sylius.org"
+        },
+        {
+            "name":     "Community contributions",
+            "homepage": "http://github.com/Sylius/Sylius/contributors"
+        }
+    ],
+    "require": {
+        "php": "^5.5.9|^7.0",
+
+        "sylius/resource": "0.17.*",
+        "sylius/translation": "0.17.*"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^2.4"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": { "Sylius\\Component\\Taxonomy\\": "" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Sylius\\Component\\Taxonomy\\spec\\": "spec/" }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.17-dev"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+# This file is part of the Sylius package.
+# (c) Paweł Jędrzejewski
+
+sylius:
+  form:
+    attribute:
+      add: Додати
+      choices: Вибір
+      code: Код
+      name: Ім’я
+      type: Тип
+    attribute_type:
+      configuration: Конфігурація

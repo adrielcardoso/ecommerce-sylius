@@ -1,0 +1,62 @@
+{
+    "name": "sylius/user-bundle",
+    "type": "symfony-bundle",
+    "description": "Users management for Symfony2 projects.",
+    "keywords": ["user", "registration", "login", "groups"],
+    "homepage": "http://sylius.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name":     "Paweł Jędrzejewski",
+            "homepage": "http://pjedrzejewski.com"
+        },
+        {
+            "name":     "Michał Marcinkowski",
+            "email":    "michal.marcinkowski@lakion.com"
+        },
+        {
+            "name":     "Łukasz Chruściel",
+            "email":    "lukasz.chrusciel@lakion.com"
+        },
+        {
+            "name":     "Bartosz Siejka",
+            "homepage": "http://bsiejka.com"
+        },
+        {
+            "name":     "Sylius project",
+            "homepage": "http://sylius.org"
+        },
+        {
+            "name":     "Community contributions",
+            "homepage": "http://github.com/Sylius/Sylius/contributors"
+        }
+    ],
+    "require": {
+        "php": "^5.5.9|^7.0",
+
+        "sylius/user": "0.17.*",
+        "sylius/resource-bundle": "0.17.*",
+        "sylius/mailer-bundle": "0.17.*",
+        "symfony/framework-bundle": "^2.7.7",
+        "hwi/oauth-bundle": "~0.3"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^2.4",
+        "symfony/form": "^2.7"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": { "Sylius\\Bundle\\UserBundle\\": "" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Sylius\\Bundle\\UserBundle\\spec\\": "spec/" }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.17-dev"
+        }
+    }
+}

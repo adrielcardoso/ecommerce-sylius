@@ -1,0 +1,13 @@
+# This file is part of the Sylius package.
+# (c) Paweł Jędrzejewski
+
+sylius:
+  form:
+    attribute:
+      add: Přidat
+      choices: Volby
+      code: Kód
+      name: Jméno
+      type: Typ
+    attribute_type:
+      configuration: Konfigurace

@@ -1,0 +1,6 @@
+# This file is part of the Sylius package.
+# (c) Paweł Jędrzejewski
+
+imports:
+    - etc/behat/profiles.yml
+    - etc/behat/suites.yml
